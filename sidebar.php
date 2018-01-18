@@ -5,7 +5,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>F</b>S</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>FIND</b>Staff</span>
+      <span class="logo-lg"><b>Find</b>Staff</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -17,9 +17,9 @@
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <!-- Messages: style can be found in dropdown.less-->
-          
+
           <!-- Notifications: style can be found in dropdown.less -->
-        
+
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -86,7 +86,7 @@
       </div>
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
-        
+
           <li><a href="index.php"><span>Dashboard</span></a></li>
         <li class="active treeview">
         </li>
@@ -100,8 +100,8 @@
           <ul class="treeview-menu">
             <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Country</a></li>
             <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Currency</a></li>
-            <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Banks</a></li>
-            <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Job</a></li>
+            <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Accepted Banks</a></li>
+            <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Job Details</a></li>
           </ul>
         </li>
         <li class="active treeview">
@@ -112,8 +112,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i>Job Order</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Application</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i>Job Order Management</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i>Application Management</a></li>
             <li><a href="#"><i class="fa fa-circle-o"></i>Collections</a></li>
           </ul>
         </li>
@@ -145,7 +145,7 @@
             <li><a href="#"><i class="fa fa-circle-o"></i>Utilities 4</a></li>
           </ul>
         </li>
-        
+
     </section>
     <!-- /.sidebar -->
   </aside>
