@@ -30,16 +30,10 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i>Maintenance 1</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Maintenance 2</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Maintenance 3</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Maintenance 4</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Maintenance 5</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Maintenance 6</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Maintenance 7</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Maintenance 8</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Maintenance 9</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Maintenance 10</a></li>
+            <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Country</a></li>
+            <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Currency</a></li>
+            <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Banks</a></li>
+            <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Job</a></li>
           </ul>
         </li>
         <li class="active treeview">
@@ -50,24 +44,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i>Transactions 1</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Transactions 2</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Transactions 3</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Transactions 4</a></li>
-          </ul>
-        </li>
-         <li class="active treeview">
-          <a href="#">
-            <span><strong>Utilities</strong></span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i>Utilities 1</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Utilities 2</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Utilities 3</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Utilities 4</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i>Job Order</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i>Application</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i>Collections</a></li>
           </ul>
         </li>
          <li class="active treeview">
@@ -84,6 +63,21 @@
             <li><a href="#"><i class="fa fa-circle-o"></i>Reports 4</a></li>
           </ul>
         </li>
+         <li class="active treeview">
+          <a href="#">
+            <span><strong>Utilities</strong></span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="#"><i class="fa fa-circle-o"></i>Utilities 1</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i>Utilities 2</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i>Utilities 3</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i>Utilities 4</a></li>
+          </ul>
+        </li>
+        
     </section>
     <!-- /.sidebar -->
   </aside>
