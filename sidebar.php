@@ -101,7 +101,12 @@
             <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Country</a></li>
             <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Currency</a></li>
             <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Accepted Banks</a></li>
-            <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Job Details</a></li>
+			<li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Job Category</a></li>
+            <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Job</a></li>
+			<li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Job Type</a></li>
+			<li><a href="maintenance.php"><i class="fa fa-circle-o"></i>General Skills</a></li>
+			<li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Fees</a></li>
+			<li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Documentary Requirements</a></li>
           </ul>
         </li>
         <li class="active treeview">
@@ -114,7 +119,7 @@
           <ul class="treeview-menu">
             <li><a href="#"><i class="fa fa-circle-o"></i>Job Order Management</a></li>
             <li><a href="#"><i class="fa fa-circle-o"></i>Application Management</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Collections</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i>Collections Monitoring</a></li>
           </ul>
         </li>
          <li class="active treeview">
@@ -125,10 +130,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i>Reports 1</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Reports 2</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Reports 3</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Reports 4</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i>Deployment Monitoring Report</a></li>
           </ul>
         </li>
          <li class="active treeview">
@@ -139,10 +141,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i>Utilities 1</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Utilities 2</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Utilities 3</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i>Utilities 4</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i>Employee</a></li>
           </ul>
         </li>
 
