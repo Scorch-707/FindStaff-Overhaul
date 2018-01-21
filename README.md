@@ -63,8 +63,8 @@ User: nyooom@gmail.com
 Password: 12345
 
 * Version 0.0.1
-        - Added Employees, Employee Types, Users
-        - Added Seeds for respective Tables
-        - Now has Login 
+        * Added Employees, Employee Types, Users
+        * Added Seeds for respective Tables
+        * Now has Login 
        
   
