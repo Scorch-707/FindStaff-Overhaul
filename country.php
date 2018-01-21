@@ -9,8 +9,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Country Details
-        <small>it all starts here</small>
+        Maintenance
       </h1>
     </section>
 
@@ -20,17 +19,17 @@
       <!-- Default box -->
       <div class="box">
         <div class="box-header">
-          <h3 class="box-title">Maintenance</h3>
+          <h3 class="box-title">Country Details</h3>
 
         </div>
         <div class="box-body">
-          <button class="btn btn-primary" href="modals.php #modal-default" data-toggle="modal" data-target="#theModal" style="padding: 10px; width: 100px;"><strong>ADD</strong>  <span class="fa fa-plus"></span></button>
+          <button class="btn btn-primary" href="modals.php #modal-default" data-toggle="modal" data-target="#countrymodal" style="padding: 10px; width: 100px;"><strong>Add</strong>  <span class="fa fa-plus"></span></button>
           <div class="row">
         <div class="col-xs-12">
             <div class="box-header">
 
               <div class="box-tools">
-                <div class="input-group input-group-sm" style="width: 150px;">
+                <div class="input-group input-group-sm" style="width: 200px;">
                   <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
 
                   <div class="input-group-btn">
@@ -43,39 +42,24 @@
             <div class="box-body table-responsive no-padding">
               <table class="table table-hover">
                 <tr>
-                  <th>ID</th>
-                  <th>User</th>
-                  <th>Date</th>
-                  <th>Status</th>
-                  <th>Reason</th>
+                  <th>Country ID</th>
+                  <th>Country</th>
+                  <th>No. of Requirements</th>
                 </tr>
                 <tr>
                   <td>183</td>
-                  <td>John Doe</td>
-                  <td>11-7-2014</td>
-                  <td><span class="label label-success">Approved</span></td>
-                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td>Japan</td>
+                  <td>###</td>
                 </tr>
                 <tr>
                   <td>219</td>
-                  <td>Alexander Pierce</td>
-                  <td>11-7-2014</td>
-                  <td><span class="label label-warning">Pending</span></td>
-                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td>China</td>
+                  <td>###</td>
                 </tr>
                 <tr>
                   <td>657</td>
-                  <td>Bob Doe</td>
-                  <td>11-7-2014</td>
-                  <td><span class="label label-primary">Approved</span></td>
-                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                </tr>
-                <tr>
-                  <td>175</td>
-                  <td>Mike Doe</td>
-                  <td>11-7-2014</td>
-                  <td><span class="label label-danger">Denied</span></td>
-                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td>USA</td>
+                  <td>###</td>
                 </tr>
               </table>
             </div>
@@ -88,31 +72,41 @@
       <!-- /.box -->
 
   <!-- modal -->
-  <div class="modal fade text-center" id="theModal">
+  <div class="modal fade text-center" id="countrymodal">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Country Details</h4>
+        <h4 class="modal-title">Add Country</h4>
       </div>
-      <div class="modal-body">
-        <p>Sample&hellip;</p>
-      </div>
+        <div class="modal-body">
+          <div class= "form-group">
+          <label>Country Name: </label> <input type="text" class="form-control" placeholder="Country Name">
+        </div>
+        <div class="form-group">
+          <label>Requirement Name: </label>
+          <select class="form-control">
+            <option>option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>
+            <option>option 5</option>
+          </select>
+        </div>
+        </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-outline">Save changes</button>
+        <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Save</button>
       </div>
     </div>
   </div>
 </div>
-
         <!-- /.modal -->
 
     </section>
     <!-- /.content -->
   </div>
-
 
   <?php include "footer.php"; ?>
   <?php include "scripts.php"; ?>
