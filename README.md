@@ -51,3 +51,20 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+## Port Notes
+
+Database name - findstaff (.env 'DATABASE = 'findstaff')
+
+*please migrate before serving "php artisan migrate:refresh --seed since log in would require you to have an authenticated user account*
+
+Default account:
+User: nyooom@gmail.com
+Password: 12345
+
+* Version 0.0.1
+        - Added Employees, Employee Types, Users
+        - Added Seeds for respective Tables
+        - Now has Login 
+       
+  
