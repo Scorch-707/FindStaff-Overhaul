@@ -98,16 +98,24 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Country</a></li>
-            <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Currency</a></li>
-            <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Accepted Banks</a></li>
-			<li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Job Category</a></li>
-            <li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Job</a></li>
-			<li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Job Type</a></li>
-			<li><a href="maintenance.php"><i class="fa fa-circle-o"></i>General Skills</a></li>
-			<li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Fees</a></li>
-			<li><a href="maintenance.php"><i class="fa fa-circle-o"></i>Documentary Requirements</a></li>
+            <li><a href="country.php"><i class="fa fa-circle-o"></i>Country</a></li>
+            <li><a href="currency.php"><i class="fa fa-circle-o"></i>Currency</a></li>
+            <li><a href="country.php"><i class="fa fa-circle-o"></i>Banks</a></li>
+            <li><a href="country.php"><i class="fa fa-circle-o"></i>Accepted Banks</a></li>
+            <li class="active treeview">
+              <a href="maintenance.php"><i class="fa fa-circle-o"></i>Job Details <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span> </a>
+          <ul class="treeview-menu">
+			<li><a href="jobcategory.php"><i class="fa fa-circle-o"></i>Job Category</a></li>
+			<li><a href="country.php"><i class="fa fa-circle-o"></i>Job Type</a></li>
+			<li><a href="country.php"><i class="fa fa-circle-o"></i>Job</a></li>
+			<li><a href="country.php"><i class="fa fa-circle-o"></i>General Skills</a></li>
+			<li><a href="country.php"><i class="fa fa-circle-o"></i>Fees</a></li>
+			<li><a href="country.php"><i class="fa fa-circle-o"></i>Documentary Requirements</a></li>
           </ul>
+          </li>
+        </ul>
         </li>
         <li class="active treeview">
           <a href="#">
