@@ -40,7 +40,7 @@
                 <div class="navbar-header">
                     <!-- Branding Image -->
                     <!-- <a class="navbar-brand" style="color: #fff;"><img src="/images/pilotlogo.png" id="logo"></a> -->
-                    <a class="navbar-brand" style="color: #fff;">Hauling Services Management System</a>
+                    <a class="navbar-brand" style="color: #fff;">Placement Services Management System</a>
                 </div>
             </nav>
         </div>
