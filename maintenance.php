@@ -3,13 +3,13 @@
 <?php include "header.php"; ?>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
-  <?php include "sidebar.php"; ?>  
+  <?php include "sidebar.php"; ?>
 
  <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Maintenance 1
+        Country Details
         <small>it all starts here</small>
       </h1>
     </section>
@@ -91,6 +91,18 @@
   <div class="modal fade text-center" id="theModal">
   <div class="modal-dialog">
     <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Country Details</h4>
+      </div>
+      <div class="modal-body">
+        <p>Sample&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-outline">Save changes</button>
+      </div>
     </div>
   </div>
 </div>
@@ -101,7 +113,7 @@
     <!-- /.content -->
   </div>
 
-  
+
   <?php include "footer.php"; ?>
   <?php include "scripts.php"; ?>
 </body>
