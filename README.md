@@ -56,7 +56,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 Database name - findstaff (.env 'DATABASE = 'findstaff')
 
-*please migrate before serving "php artisan migrate:refresh --seed since log in would require you to have an authenticated user account*
+*please migrate before serving "php artisan migrate:refresh --seed" since log in would require you to have an authenticated user account before letting you in*
 
 Default account:
 User: nyooom@gmail.com
