@@ -100,7 +100,7 @@
           <ul class="treeview-menu">
             <li><a href="country.php"><i class="fa fa-circle-o"></i>Country</a></li>
             <li><a href="currency.php"><i class="fa fa-circle-o"></i>Currency</a></li>
-            <li><a href="country.php"><i class="fa fa-circle-o"></i>Banks</a></li>
+            <li><a href="banks.php"><i class="fa fa-circle-o"></i>Banks</a></li>
             <li><a href="country.php"><i class="fa fa-circle-o"></i>Accepted Banks</a></li>
             <li class="active treeview">
               <a href="maintenance.php"><i class="fa fa-circle-o"></i>Job Details <span class="pull-right-container">
