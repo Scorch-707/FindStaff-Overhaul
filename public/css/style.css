@@ -1,0 +1,176 @@
+table.dataTable tr.group td{font-weight:bold;background-color:#e0e0e0}
+body
+{
+	background-color: #f7fcf8;
+}
+#navtop
+{
+	background-color: #05c705;
+	height: 60px;
+	border-style: none;
+	border-radius: 0px;
+	color: #fff;
+	width: 100%;
+}
+#useracc
+{
+	color:#fff;
+	background-color: #8ddfcc;
+}
+#frstgrp
+{
+	border-bottom: 1px solid #fff;
+	color: #2ad4a5;
+}
+#sidebrand
+{
+	height: 200px;
+	background-color: #fff;
+}
+#navv
+{
+	color: #2ad4a5;
+}
+#sidebar
+{
+	background-color: #2ba54b;
+}
+#sidebar-wrapper
+{
+	background-color: #2ba54b;
+}
+#logo
+{
+	margin-top: -15px;
+	margin-right: -20px;
+	width : 60px;
+	height: 50px;
+}
+
+#collapse1
+{
+	background-color: rgba(0,0,0,0.3);
+}
+#collapse2
+{
+	background-color: rgba(0,0,0,0.3);
+}
+#collapse3
+{
+	background-color: rgba(0,0,0,0.3);
+}
+#collapse4
+{
+	background-color: rgba(0,0,0,0.3);
+}
+#btnSave
+{
+	background-color: #2ad4a5;
+}
+hr
+{
+	border-color:  #00FF99;
+}
+.nav-tabs > li.active > a:focus
+{
+	background-color: #2ad4a5;
+	color: #fff;
+}
+.nav-tabs > .active > a
+{
+	color: #2ad4a5;
+	background-color: #fff;
+}
+.buts
+{
+	background-color: #428bca;
+	color:#fff;
+}
+#title
+{
+	border-bottom: 2px solid #2ad4a5;
+}
+.dropdown-toggle
+{
+	color:#2ad4a5 ;
+}
+.dropdown-menu
+{
+	color: #2ad4a5;
+}
+/*#vert
+{
+	border-left: 2px solid white;
+}*/
+.heading
+{
+	background-color: #23375B;
+	color:#fff;
+}
+.but
+{
+	background-color:  #428bca;
+	color: #fff;
+}
+.but:focus
+{
+	color: #fff;
+}
+.but:hover
+{
+	background-color: #8ddfcc;
+	color: #fff;
+}
+h2
+{
+	border-left: 3px solid #006600;
+}
+#vert
+{
+	color:black;
+}
+.modal-header
+{
+	background-color: #23375B;
+	color: #fff;
+}
+.close
+{
+	color: #fff;
+}
+.panel-body
+{
+	border-style: 1px solid #8ddfcc;
+}
+.txt
+{
+	border-style: none;
+	background-color: #fff;
+	font-size: 25px;
+	width: 150px;
+}
+#tot
+{
+	border-bottom: 1px solid #23375b;
+}
+.vat
+{
+	border-style: none;
+	background-color: #fff;
+	font-size: 20px;
+	width: 180px;
+}
+.det
+{
+	border-style: none;
+	background-color: #fff;
+}
+.profile-img {
+	width: 96px;
+	height: 96px;
+	margin: 0 auto 10px;
+	display: block;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
